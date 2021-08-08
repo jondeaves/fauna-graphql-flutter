@@ -1,0 +1,11 @@
+# Import this file into the Fauna graphql playground to define the schema
+
+type TodoItem {
+    title: String!
+    description: String!
+    completed: Boolean!
+}
+
+type Query {
+    todos: [TodoItem!]!
+}
