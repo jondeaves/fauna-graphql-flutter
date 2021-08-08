@@ -1,16 +1,9 @@
 # fauna_todo
 
-A todo app built with Flutter, Fauna and GraphQL
+A todo app built with Flutter, Fauna and GraphQL. The app was built by following [this tutorial](https://css-tricks.com/how-to-build-a-full-stack-mobile-application-with-flutter-fauna-and-graphql/)
 
-## Getting Started
+## Configuration
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- A free account on [Fauna](fauna.com) is required
+- Once your account exists create a new key under the "Security" tab with the "Server" role and any name you want
+- Put this key into a file called `.env` using the `env.sample` file as a template.
